@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 9">
+			<Prp name="date" type="D" value="42087.7360909028"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The 'HW - Notepad' window was closed."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Sys.Process(&quot;notepad&quot;).Window(&quot;Notepad&quot;, &quot;Untitled - Notepad&quot;, 1)"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="date" type="D" value="42087.7360876273"/>
+			<Prp name="priority" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The property value &quot;Hello world!| My name| My name is Andrew! is Andrew!&quot; does not equal the baseline value &quot;Hello world!| My name is Andrew!&quot;."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 7">
+			<Prp name="date" type="D" value="42087.7360872801"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The file 'HW.txt' was selected in the Open dialog."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="The file 'C:\Documents and Settings\Tester\Desktop\HW.txt' was opened as a 'Text Documents (*.txt)' file.&#xA;"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="date" type="D" value="42087.7360774653"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The menu item 'File|Open...' was clicked."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Sys.Process(&quot;notepad&quot;).Window(&quot;Notepad&quot;, &quot;Untitled - Notepad&quot;, 1).MainMenu"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="date" type="D" value="42087.7360697222"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The application &quot;C:\WINDOWS\system32\notepad.EXE&quot; started."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="date" type="D" value="42087.7360673148"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The 'HW - Notepad' window was closed."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Sys.Process(&quot;NOTEPAD&quot;).Window(&quot;Notepad&quot;, &quot;HW - Notepad&quot;, 1)"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="date" type="D" value="42087.7360638657"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The menu item 'File|Save' was clicked."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Sys.Process(&quot;NOTEPAD&quot;).Window(&quot;Notepad&quot;, &quot;HW - Notepad&quot;, 1).MainMenu"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="date" type="D" value="42087.7360604282"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'| MY[BS]y name is Andrew!!' was sent as a keyboard input to a window:&#xA;&#xA;Sys.Process(&quot;NOTEPAD&quot;).Window(&quot;Notepad&quot;, &quot;HW - Notepad&quot;, 1).Window(&quot;Edit&quot;, &quot;&quot;, 1)"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="date" type="D" value="42087.7360521644"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (172, 36) with no key pressed.&#xA;&#xA;Sys.Process(&quot;NOTEPAD&quot;).Window(&quot;Notepad&quot;, &quot;HW - Notepad&quot;, 1).Window(&quot;Edit&quot;, &quot;&quot;, 1)"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="date" type="D" value="42087.7360437268"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The list view item ('HW', 0) was double-clicked by the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Sys.Process(&quot;Explorer&quot;).Window(&quot;Progman&quot;, &quot;Program Manager&quot;, 1).Window(&quot;SHELLDLL_DefView&quot;, &quot;&quot;, 1).Window(&quot;SysListView32&quot;, &quot;FolderView&quot;, 1)"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{A4BAA0A8-6B8C-4B96-9F4C-78D71AF64121}"/>
+		</Node>
+		<Node name="child data"/>
+		<Prp name="status" type="I" value="1"/>
+	</Node>
+</Nodes>
