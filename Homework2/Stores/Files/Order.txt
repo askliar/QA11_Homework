@@ -1,0 +1,6 @@
+ProductCustomer,ProductStreet,Product City,ProductState,ProductZip,ProductCardNum
+"John Doe","Doe","Chicago","USA","01004","5678904345678903"
+"Jane Doe","Dumm","Mehico","Mexico","01","1111222233334444"
+"Max","Doerty","Detroit","USA","0100456","5555666677778888"
+"Lena","Drums","Wisconsin","USA","4567","9999111122223333"
+"Herbert","Zhmerynkyvska","Kiev","Ukraine","969696","1234567812345678"

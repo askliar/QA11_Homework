@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="parameters">
+			<Prp name="key" type="S" value="{55C29D4D-3D19-41B2-882E-AF3BC2C156BD}"/>
+		</Node>
+		<Node name="settings">
+			<Prp name="settingsversion" type="S" value="7.50"/>
+		</Node>
+		<Node name="testdata">
+			<Node name="children">
+				<Node name="child0">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.OrdersApp.dlgConfirmation.btnNo;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters"/>
+						<Prp name="action" type="S" value="ClickButton"/>
+						<Prp name="description" type="S" value="Clicks the 'btnNo' button."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Prp name="childcount" type="I" value="1"/>
+			</Node>
+			<Node name="data">
+				<Node name="extenders">
+					<Node name="{800193e8-4656-48c9-a7dc-10ff396c56a4}"/>
+				</Node>
+			</Node>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="key" type="S" value="{D45BE418-F892-42B1-975D-2DF934EB3EB1}"/>
+			<Prp name="type" type="S" value="{79147B28-EE20-4294-B773-1D3787FBF37B}"/>
+		</Node>
+		<Node name="variables">
+			<Node name="datav3"/>
+			<Prp name="key" type="S" value="{671D5DB1-FFB8-41AD-947D-3D0ABADD9371}"/>
+			<Prp name="version" type="I" value="3"/>
+		</Node>
+		<Prp name="signature" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+		<Prp name="version" type="S" value="7.0"/>
+	</Node>
+</Nodes>
